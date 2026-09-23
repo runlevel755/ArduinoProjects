@@ -1,0 +1,33 @@
+# --- Filtrar Librerías de Arduino ---
+# Bloquea carpetas llamadas 'libraries' en cualquier nivel del repositorio
+**/libraries/
+**/Library/
+
+# Bloquea la carpeta de dependencias 'src' dentro de los proyectos si usas sub-librerías locales
+**/src/
+
+# --- Archivos temporales de Compilación y Configuración ---
+# Directorios de compilación temporales generados por Arduino IDE 2.x y Arduino CLI
+**/build/
+**/bin/
+
+# Archivos de configuración locales del IDE de Arduino
+.arduino/
+arduino.json
+
+# Archivos temporales y de depuración
+*.tmp
+*.bak
+*.log
+
+# --- Archivos del Sistema Operativo ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
